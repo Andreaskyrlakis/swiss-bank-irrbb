@@ -1,0 +1,24 @@
+{
+  "_note": "Hand-transcribed from the public BCV reports in data/raw/pdf. Parent company (Maison mere), CHF millions.",
+  "reporting_date": "2025-12-31",
+  "tier1_parent": {"value": 3484, "source": "Pillar 3 at 31.12.2025, Table 27 (IRRBB1), p.57"},
+  "tier1_group": {"value": 3528, "source": "Pillar 3 at 31.12.2025, KM1 summary table"},
+  "irrbba1_total_net": {"value": 3517, "avg_repricing_y": 6.5, "source": "Pillar 3 at 31.12.2025, Table 26 (IRRBBA1), p.54"},
+  "parent_balance_sheet": {
+    "source": "Annual report 2025, parent company accounts, balance sheet p.176",
+    "total_assets": 60621, "liquidity": 8478, "due_from_banks": 921, "loans_to_customers": 6041,
+    "mortgage_loans": 34829, "financial_investments": 7423, "due_to_banks": 3720,
+    "customer_deposits": 37212, "pfandbrief_loans": 11143, "cash_bonds": 4, "equity": 3938
+  },
+  "parent_income_2025": {
+    "source": "Annual report 2025, parent company income statement p.177",
+    "interest_and_discount_income": 700.5, "interest_and_dividend_income_fin_investments": 65.7,
+    "interest_expense": -247.2, "gross_interest_income": 519.1
+  },
+  "hedging_swaps_notional_group": {"value": 10181, "source": "Annual report 2025, group note 10.4 derivatives (hedging instruments, interest-rate swaps)"},
+  "fx_share_balance_sheet": {"EUR": 0.040, "USD": 0.019, "source": "Pillar 3 at 31.12.2025, p.56"},
+  "published_notes": [
+    "Savings deposits row of IRRBBA1: 'dont CHF' (-15,889) exceeds the total (-13,319); the model uses the Total column.",
+    "BCV discounts with SARON-swap curve; NMD replicated on 1m-10y market rates; prepayments are fully compensated by a penalty (no prepayment model); no automatic options in the banking book."
+  ]
+}

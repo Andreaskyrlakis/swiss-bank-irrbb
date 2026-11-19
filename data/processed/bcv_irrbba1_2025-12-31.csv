@@ -1,0 +1,19 @@
+item,label_fr,side,repricing,volume_chf_m,avg_repricing_y,max_repricing_y
+interbank_claims,Créances sur les banques,asset,defined,525,0.8,
+customer_loans_fixed,Créances sur la clientèle,asset,defined,5212,3.3,
+mortgages_money_market,Hypothèques du marché monétaire,asset,defined,455,0.0,
+mortgages_fixed,Hypothèques à taux fixes,asset,defined,34178,4.0,
+financial_investments,Immobilisations financières,asset,defined,7337,6.0,
+swap_receive_legs,Créances découlant de dérivés de taux,asset,defined,12887,0.3,
+interbank_liabilities,Engagements envers les banques,liability,defined,-4147,0.2,
+customer_term_deposits,Engagements résultant des dépôts de la clientèle,liability,defined,-6656,0.3,
+cash_bonds,Obligations de caisse,liability,defined,-4,1.2,
+pfandbrief_loans,Emprunts et prêts sur lettres de gage,liability,defined,-11238,6.8,
+swap_pay_legs,Engagements résultant de dérivés de taux,liability,defined,-12883,3.5,
+interbank_claims_nd,Créances sur les banques (non définie),asset,overnight,222,0.0,
+customer_loans_nd,Créances sur la clientèle (non définie),asset,nmd,855,0.1,0.1
+mortgages_variable,Créances hypothécaires à taux variables,asset,nmd,138,2.5,5.0
+other_claims,Autres créances,asset,overnight,8472,0.0,
+sight_deposits,Engagements à vue (comptes privés et courants),liability,nmd,-17112,1.8,5.0
+other_liabilities,Autres engagements,liability,overnight,-1406,0.0,
+savings_deposits,Dépôts d'épargne,liability,nmd,-13319,1.8,10.0

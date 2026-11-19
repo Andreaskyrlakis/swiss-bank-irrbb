@@ -1,0 +1,25 @@
+date,scenario,delta_eve_chf_m,delta_nii_chf_m,tier1_chf_m,source
+2025-12-31,parallel_up,-467,78,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-12-31,parallel_down,488,-3,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-12-31,steepener,-138,,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-12-31,flattener,40,,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-12-31,short_up,-120,,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-12-31,short_down,125,,3484,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,parallel_up,-527,85,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,parallel_down,574,25,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,steepener,-216,,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,flattener,106,,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,short_up,-91,,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2025-06-30,short_down,95,,3508,Pillar 3 at 31.12.2025 Table 27 p.57
+2024-12-31,parallel_up,-505,53,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-12-31,parallel_down,553,47,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-12-31,steepener,-211,,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-12-31,flattener,106,,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-12-31,short_up,-84,,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-12-31,short_down,88,,3490,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,parallel_up,-473,43,3438,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,parallel_down,519,-31,3438,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,steepener,-206,,3438,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,flattener,108,,3438,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,short_up,-72,,3438,Pillar 3 at 31.12.2024 Table 26 p.56
+2024-06-30,short_down,76,,3438,Pillar 3 at 31.12.2024 Table 26 p.56

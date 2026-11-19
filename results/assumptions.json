@@ -1,0 +1,73 @@
+{
+  "date": "2025-12-30",
+  "coupons": {
+    "mortgages_fixed": 0.018106388492708334,
+    "customer_loans_fixed": 0.018285658439240505,
+    "financial_investments": 0.0034833529882689453,
+    "pfandbrief_loans": 0.005193744591846267,
+    "swap_pay_legs": 0.0010286075949367088,
+    "interbank_claims": -0.00044846578011913845,
+    "mortgages_money_market": -0.0004022476137909863,
+    "swap_receive_legs": -0.0005432452872517465,
+    "interbank_liabilities": -0.000516646009051055,
+    "customer_term_deposits": -0.0005432452872517465,
+    "cash_bonds": -0.00019125916625054333,
+    "interbank_claims_nd": -0.0004022476137909863,
+    "customer_loans_nd": -0.00047011233829115444,
+    "other_claims": -0.0004022476137909863,
+    "other_liabilities": -0.0004022476137909863
+  },
+  "coupon_notes": {
+    "mortgages_fixed": "SNB new fixed-rate mortgages, 8-year, mean (zikrepro 80); average over the last 8 years (data to 2025-12): 1.81%",
+    "customer_loans_fixed": "SNB new fixed-rate mortgages, 7-year, mean (zikrepro 70), proxy; average over the last 6.6 years (data to 2025-12): 1.83%",
+    "financial_investments": "SNB yields of cantonal bonds, 8-year (rendoblid K); average over the last 12 years (data to 2025-07): 0.35%",
+    "pfandbrief_loans": "SNB yields of Pfandbrief institutions, 8-year (rendoblid P); average over the last 13.6 years (data to 2025-07): 0.52%",
+    "swap_pay_legs": "SNB Confederation 7-year yield (rendoblim 7J), swap-rate proxy; average over the last 7 years (data to 2025-07): 0.10%",
+    "interbank_claims": "zero rate at 1.60 y on 30.12.2025: -0.04%",
+    "mortgages_money_market": "zero rate at 0.00 y on 30.12.2025: -0.04%",
+    "swap_receive_legs": "zero rate at 0.60 y on 30.12.2025: -0.05%",
+    "interbank_liabilities": "zero rate at 0.40 y on 30.12.2025: -0.05%",
+    "customer_term_deposits": "zero rate at 0.60 y on 30.12.2025: -0.05%",
+    "cash_bonds": "zero rate at 2.40 y on 30.12.2025: -0.02%",
+    "interbank_claims_nd": "zero rate at 0.00 y on 30.12.2025: -0.04%",
+    "customer_loans_nd": "zero rate at 0.20 y on 30.12.2025: -0.05%",
+    "other_claims": "zero rate at 0.00 y on 30.12.2025: -0.04%",
+    "other_liabilities": "zero rate at 0.00 y on 30.12.2025: -0.04%"
+  },
+  "client_rates": {
+    "sight_deposits": 1.05263e-05,
+    "savings_deposits": 0.0007880951999999999,
+    "mortgages_variable": 0.0279192308
+  },
+  "pass_through": {
+    "sight_deposits": {
+      "beta": 0.013081013883151495,
+      "intercept_pct": 0.0007760945861700945,
+      "r2": 0.7217526849625888,
+      "months": 43,
+      "cycle_beta_up_2022-06_to_2023-12": 0.014467674132747726,
+      "cycle_beta_down_2023-12_to_2025-12": 0.015683008681489915,
+      "snb_series": "Private payment accounts (S0)"
+    },
+    "savings_deposits": {
+      "beta": 0.3467146440242151,
+      "intercept_pct": 0.08445247630868136,
+      "r2": 0.7531659053872362,
+      "months": 43,
+      "cycle_beta_up_2022-06_to_2023-12": 0.38971701246744567,
+      "cycle_beta_down_2023-12_to_2025-12": 0.38156448845144875,
+      "snb_series": "Savings deposits (S1)"
+    },
+    "mortgages_variable": {
+      "beta": 0.10980960677637593,
+      "intercept_pct": 2.7546012334403946,
+      "r2": 0.4030593123162831,
+      "months": 43,
+      "cycle_beta_up_2022-06_to_2023-12": 0.18636821383160815,
+      "cycle_beta_down_2023-12_to_2025-12": 0.11700102847900629,
+      "snb_series": "Variable mortgages (MV)"
+    }
+  },
+  "nmd_rule": "volatile part overnight; stable part uniform ladder up to the published maximum; stable share = 2 x average / maximum (matches IRRBBA1 averages)",
+  "ladder_rule": "defined-repricing items: uniform monthly ladder on (0, 2 x published average]"
+}

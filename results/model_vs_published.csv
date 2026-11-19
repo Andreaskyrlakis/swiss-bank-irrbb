@@ -1,0 +1,7 @@
+,model_delta_eve,published_delta_eve,model_delta_nii,published_delta_nii,eve_gap,model_eve_pct_tier1,published_eve_pct_tier1
+parallel_up,-448.8,-467,96.3,78.0,18.2,-12.9,-13.4
+parallel_down,454.0,488,-158.2,-3.0,-34.0,13.0,14.0
+steepener,-40.5,-138,-67.8,,97.5,-1.2,-4.0
+flattener,-48.7,40,47.1,,-88.7,-1.4,1.1
+short_up,-187.1,-120,71.3,,-67.1,-5.4,-3.4
+short_down,190.7,125,-133.2,,65.7,5.5,3.6

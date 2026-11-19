@@ -1,0 +1,13 @@
+{
+  "source": "FINMA Circular 2019/2 'Interest rate risk - banks', Annex 2 (in force for 31.12.2025), as shown in the tracked-changes consultation draft of 4 Nov 2026 (data/raw/pdf/finma_rs19-02_draft_2026-11_fr.pdf, p.14-15); shock formulas from BCBS SRP31.90-93",
+  "currency": "CHF",
+  "parallel_bp": 150,
+  "short_bp": 150,
+  "long_bp": 100,
+  "decay_x_years": 4,
+  "floor": "none ('Aucun seuil inferieur ne doit etre applique dans les scenarios')",
+  "outlier_threshold_delta_eve_over_tier1": 0.15,
+  "draft_2028_parallel_bp": 175,
+  "draft_2028_short_bp": 250,
+  "draft_2028_note": "Consultation draft of 4 Nov 2026 (in force 1.1.2028 if adopted). Only parallel and short CHF sizes are read from the draft table; used for one sensitivity only."
+}

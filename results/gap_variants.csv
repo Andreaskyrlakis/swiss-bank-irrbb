@@ -1,0 +1,7 @@
+,parallel_up,parallel_down,steepener,flattener,short_up,short_down,RMSE vs published
+Base model,-449.0,454.0,-41.0,-49.0,-187.0,191.0,68.0
+NMD volatile part at 1 month (BCV rule),-433.0,438.0,-51.0,-36.0,-171.0,175.0,61.0
+No commercial margin in cash flows,-361.0,361.0,-34.0,-39.0,-149.0,152.0,88.0
+Curve +20 bp (swap-spread proxy),-448.0,454.0,-42.0,-47.0,-185.0,189.0,67.0
+"NMD stable shares fitted (100% sight, 16% savings)",-462.0,478.0,-95.0,2.0,-151.0,154.0,29.0
+Published (BCV),-467.0,488.0,-138.0,40.0,-120.0,125.0,0.0

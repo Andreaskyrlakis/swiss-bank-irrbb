@@ -1,0 +1,140 @@
+{
+  "tier1_parent": 3484,
+  "eve_banking_book_model": 6018.371655895446,
+  "delta_eve_model": {
+    "parallel_up": -448.7594685962053,
+    "parallel_down": 454.0413175967332,
+    "steepener": -40.526434485535255,
+    "flattener": -48.693824163370024,
+    "short_up": -187.07105436060388,
+    "short_down": 190.6750498599008
+  },
+  "delta_nii_model": {
+    "parallel_up": 96.27105390776444,
+    "parallel_down": -158.22030769326958,
+    "steepener": -67.83592747519617,
+    "flattener": 47.05692706364046,
+    "short_up": 71.30445718895517,
+    "short_down": -133.20398415695834
+  },
+  "delta_nii_no_deposit_floor": {
+    "parallel_up": 96.27105390776444,
+    "parallel_down": -96.27105390776444
+  },
+  "delta_eve_published": {
+    "parallel_up": -467,
+    "parallel_down": 488,
+    "steepener": -138,
+    "flattener": 40,
+    "short_up": -120,
+    "short_down": 125
+  },
+  "delta_nii_published": {
+    "parallel_up": 78.0,
+    "parallel_down": -3.0
+  },
+  "worst_scenario_model": "parallel_up",
+  "worst_ratio_model": 0.12880581762233217,
+  "worst_ratio_published": 0.13404133180252584,
+  "parallel_up_gap_pct": -3.90589537554491,
+  "parallel_down_gap_pct": -6.9587463941120475,
+  "rmse_six_scenarios_base": 67.90353209078764,
+  "fitted_nmd_stable_shares": {
+    "sight": 1.0,
+    "savings": 0.16,
+    "rmse": 29.427764096406165,
+    "implied_avg_repricing_sight_y": 2.5,
+    "implied_avg_repricing_savings_y": 0.8
+  },
+  "outlier_history_pct": {
+    "2024-06-30": 13.757998836532867,
+    "2024-12-31": 14.469914040114611,
+    "2025-06-30": 15.022805017103764,
+    "2025-12-31": 13.404133180252584
+  },
+  "draft_2028": {
+    "delta_eve": {
+      "parallel_up": -522.6862203607171,
+      "parallel_down": 529.8093886006271,
+      "steepener": 40.38269896177578,
+      "flattener": -149.22811169273598,
+      "short_up": -309.8174642969708,
+      "short_down": 319.82913817804285
+    },
+    "worst": "parallel_up",
+    "ratio": 0.15002474752029768,
+    "published_scaled_ratio": 0.1563815537696135
+  },
+  "delta_eve_by_position_parallel_up": {
+    "interbank_claims": -6.251715722186987,
+    "customer_loans_fixed": -258.8643602780812,
+    "mortgages_money_market": -0.018698266530179808,
+    "mortgages_fixed": -2052.4220518734946,
+    "financial_investments": -617.8821671908454,
+    "swap_receive_legs": -57.823317767593835,
+    "interbank_liabilities": 12.416933620557757,
+    "customer_term_deposits": 29.865135645310147,
+    "cash_bonds": 0.07117469668467713,
+    "pfandbrief_loans": 1068.114119357313,
+    "swap_pay_legs": 651.3594547897119,
+    "interbank_claims_nd": -0.009123110263089984,
+    "customer_loans_nd": -0.6410080053597085,
+    "mortgages_variable": -5.282713146336505,
+    "other_claims": -0.3481576132835471,
+    "sight_deposits": 450.2320267729592,
+    "other_liabilities": 0.057779698332979024,
+    "savings_deposits": 338.6672197969001
+  },
+  "delta_nii_by_position_parallel_up": {
+    "interbank_claims": 2.460664819944598,
+    "customer_loans_fixed": 5.922689312610158,
+    "mortgages_money_market": 6.806301369863014,
+    "mortgages_fixed": 32.041875,
+    "financial_investments": 4.585625,
+    "swap_receive_legs": 135.3135,
+    "interbank_liabilities": -49.764,
+    "customer_term_deposits": -69.888,
+    "cash_bonds": -0.012499405469678954,
+    "pfandbrief_loans": -6.1974171402762614,
+    "swap_pay_legs": -13.803214285714285,
+    "interbank_claims_nd": 3.3208767123287672,
+    "customer_loans_nd": 12.183749999999998,
+    "mortgages_variable": 0.22730588602709825,
+    "other_claims": 126.73183561643836,
+    "sight_deposits": -3.3576346435273257,
+    "other_liabilities": -21.03221917808219,
+    "savings_deposits": -69.2683851563778
+  },
+  "delta_nii_by_position_parallel_down": {
+    "interbank_claims": -2.460664819944598,
+    "customer_loans_fixed": -5.922689312610158,
+    "mortgages_money_market": -6.806301369863014,
+    "mortgages_fixed": -32.041875,
+    "financial_investments": -4.585625,
+    "swap_receive_legs": -135.3135,
+    "interbank_liabilities": 49.764,
+    "customer_term_deposits": 69.888,
+    "cash_bonds": 0.012499405469678954,
+    "pfandbrief_loans": 6.1974171402762614,
+    "swap_pay_legs": 13.803214285714285,
+    "interbank_claims_nd": -3.3208767123287672,
+    "customer_loans_nd": -12.183749999999998,
+    "mortgages_variable": -0.22730588602709825,
+    "other_claims": -126.73183561643836,
+    "sight_deposits": 0.18012604559999998,
+    "other_liabilities": 21.03221917808219,
+    "savings_deposits": 10.496639968799998
+  },
+  "modelled_annual_interest": {
+    "income": 732.2368563952477,
+    "expense": -75.97092257000048,
+    "net": 656.2659338252472,
+    "reported_2025": {
+      "source": "Annual report 2025, parent company income statement p.177",
+      "interest_and_discount_income": 700.5,
+      "interest_and_dividend_income_fin_investments": 65.7,
+      "interest_expense": -247.2,
+      "gross_interest_income": 519.1
+    }
+  }
+}
